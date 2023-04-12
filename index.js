@@ -1,12 +1,5 @@
-// const path = require('path');
-//
-// require('dotenv').config({path: path.join(process.cwd(), 'environments', '.env')});
-//
-// const {constants} = require('./config');
 const express = require('express');
 const cors = require('cors');
-// import express from 'express';
-// import cors from 'cors';
 
 const {imageRouter} = require('./src/router');
 
