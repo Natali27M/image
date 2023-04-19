@@ -9,7 +9,7 @@ module.exports = {
                 // "input": {"prompt": "frog portrait wear white coat and black headphone and 3D-glasses, #pixel"}
             }, {
                 headers: {
-                    Authorization: `Token 9191fff78bd25094f79046e4c8cdf7b814f17805`,
+                    Authorization: `Token 8b158bf8c25a7798ea87cee7f47f80df6ffa99bb`,
                 },
             });
 
@@ -19,7 +19,7 @@ module.exports = {
                         try {
                             const imageUrl = await axios.get(`${axiosResponse.data.urls.get}`, {
                                 headers: {
-                                    Authorization: `Token 9191fff78bd25094f79046e4c8cdf7b814f17805`,
+                                    Authorization: `Token 8b158bf8c25a7798ea87cee7f47f80df6ffa99bb`,
                                 },
                             });
                             resolve(imageUrl.data.output);
